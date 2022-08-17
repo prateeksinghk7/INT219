@@ -6,13 +6,16 @@ div.container{
     margin: 20px;
     padding: 20px;
     color: aqua;
-    border: 1px solid black;
+    border: 10px solid rgb(35, 233, 13);
+    border-radius:50px;
+    border-top-style:dotted;
+    
     background-color: antiquewhite;
     transition: box-shadow 2s, background 2s;
 
 }
 div.container:hover{
-    box-shadow: 5px 5px slategray;
+    box-shadow: 5px 5px rgb(15, 254, 2);
    background: rgba(76, 175, 80,0.20); 
    
 }
