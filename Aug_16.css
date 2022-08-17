@@ -1,0 +1,50 @@
+div.container{
+    width: 500px;
+    height: max-content;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction:column;
+   padding: 10px;
+
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%);
+    
+    border: 1px solid black;
+    box-shadow: 10px 10px gray;
+    transition: color 2s,background-color 2s ;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+div.image{
+    text-align: center;
+    display: block;
+    border: 1px solid black;
+}
+
+div.details{
+    border: 1px solid black;
+text-align: center;
+transition: background-color 2s, color 2s ,font-size 2s, top 2s;
+}
+div.details:hover{
+    visibility: collapse;
+    color: blueviolet;
+    background-color: aqua;
+    
+}
+.myClass{
+    
+    position: relative;
+    top: -20px;
+    background-color: red;
+    color:blueviolet;
+    font-size: 44px;
+}

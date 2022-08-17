@@ -1,0 +1,19 @@
+table{
+    border:10px solid black;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border-style:groove;
+    box-shadow: 10px 10px #888888;
+} 
+th,tr,td{
+    border: 2px solid black;
+    padding: 10px;
+    margin:10px;
+
+}
+
+input:focus::placeholder{
+    color:transparent;
+}
