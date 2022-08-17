@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <title>CSS start date</title>
+    <link rel="stylesheet" href="Aug_16.css" type="text/css"> <!-- we don't need to add type="...." as in modern CSS it is understood that it is already included-->
+<script>
+    function move(){
+        document.querySelector('#image').addEventListener('click',()=>{
+            document.querySelector('#foo').classList.add('myClass');
+        });
+    }
+    
+    </script>
+</head>
+<body>
+  
+
+    <div class="container">
+        <div class="image"><img src="loginimage1.png" id="image" onclick="move();"></div>
+        <div class="details" id="foo"> <p>Rocking Shoes</p><span>Lucky Offer</span> <span>50%</span></div>
+    </div>
+
+</body>
+</html>
