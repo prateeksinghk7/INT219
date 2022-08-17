@@ -1,11 +1,20 @@
+body{  background-color: rgb(148, 148, 154);
+    background-image: url("background image.jpg");	
+    background-size: cover;  /* to make background image cover the page best option*/
+}
 div.container{
     margin: 20px;
     padding: 20px;
     color: aqua;
     border: 1px solid black;
     background-color: antiquewhite;
-    box-shadow: 5px 5px slategray;
+    transition: box-shadow 2s, background 2s;
 
+}
+div.container:hover{
+    box-shadow: 5px 5px slategray;
+   background: rgba(76, 175, 80,0.20); 
+   
 }
 
 div input{              /*           this is decedent selector */
