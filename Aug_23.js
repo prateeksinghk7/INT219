@@ -28,8 +28,8 @@ let myVar="Teaching int219";
 console.log(myVar.length);
 console.log(myVar.charAt(0));
 console.log(myVar.charAt(10));
-console.log(myVar.indexOf("in"));  //it will show the first occurrence of the given string
-console.log(myVar.slice(0,10)); //here in slicing both values are considered i.e. we take 0 as well as 10th place value of the string
+console.log(myVar.indexOf("in"));   //it will show the first occurrence of the given string
+console.log(myVar.slice(0,10));     //here in slicing both values are considered i.e. we take 0 as well as 10th place value of the string
 console.log(myVar.toLocaleLowerCase());
 console.log(myVar.toUpperCase());
 console.log(myVar.includes("219")); // it will give the value in boolean i.e. if value is present then true and if not then false
@@ -42,7 +42,7 @@ console.log(Math.round(Math.PI));
 console.log(Math.ceil(Math.PI));
 console.log(Math.floor(Math.PI));
 
-console.log(Math.random()*10); // IMPORTANT this will give me value from 0 to 10 (both included) but the value will be in decimal so we wil use floor value to make it integer
+console.log(Math.random()*10); // IMPORTANT this will give me value from 0 to 9 (both included) but the value will be in decimal so we wil use floor value to make it integer
 console.log(Math.floor(Math.random()*10)); // so here we used floor value to the random generated number so that it will be in whole number.
 
 
