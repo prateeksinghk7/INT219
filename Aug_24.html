@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-let x=
+    <title>lets do something new</title>
+    
 </head>
 <body>
+   
+    <script>
+        //Question: generate random number using ternary operator
+        let x=Math.floor(Math.random()*3+1)
+        if(x==0?document.write("random number: 0"):x==1?document.write("random number: 1"):x==2?document.write("ra 2"):x==3?document.write("you choose 3"):document.write("option not valid"));
+  
+        
+
+    //Question: make a hide and seek game by taking value from user
+         let place=Math.floor(Math.random()*5+1);                       //here i took random value for the hider
+        let not_found=true;                                             //this is for ending my while loop
+       while(place>0 && not_found){
+let x=prompt("where do you think the thief is hiding (choose from 1 to 5)");     //form here i will be able to take value from user using prompt function           
     
+
+    if(x==""){                                                           //IMPORTANT: In prompt function if noting is typed then it returns empty string...
+    alert("sry!😅 you entered nothing plz try again");
+        continue;                                                       //continue is used here to skip the else condition and directly again move to while loop initial state
+    }
+if(x==null){                                                            //IMPORTANT: In prompt function if cancel is pressed then it returns NULL value 
+    alert("You are pressed CANCEL ❌")
+    break;                                                              //break is used here to exit the loop if break is not used then it will keep repeating the while loop conditions
+}
+    if(x==place){                                                          
+       alert("mil gaya!!!");
+       not_found=false;                                                 // here it is important to make tha value false (to exit the while loop)
+    }
+    else{
+        alert("ohhh so close let try again !!!!")
+    }
+        
+    }
+ 
+</script>
 </body>
 </html>
